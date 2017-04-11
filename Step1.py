@@ -1,6 +1,7 @@
 import mysql.connector
 
 
+
 class Step1:
     __q0 = 0
     __gl = None
@@ -9,10 +10,10 @@ class Step1:
     __function_cogs_dictionary = None
     __cogs_frequency = None
     __functions_frequency = None
-
-    def __init__(self, q0, gl, radius):
-        self.__q0 = q0
+    # g1 example [("kinase",3),("tf",2)]
+    def __init__(self,gl,q0, radius):
         self.__gl = gl
+        self.__q0 = q0
         self.__radius = radius
         two_dictionaries = Step1.gen_dictionary(gl)
         self.__cog_functions_dictionary = two_dictionaries[0]
@@ -78,7 +79,7 @@ class Step1:
             # add each result to dictionary
             for (ID, classification) in cursor:
                 if ID in d:
-                    d[ID].append(d)
+                    d[ID].append(c)
                 else:
                     d[ID] = [c]
 

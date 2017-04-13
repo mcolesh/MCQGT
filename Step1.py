@@ -81,6 +81,7 @@ class Step1:
                 if ID in d:
                     d[ID].append(c)
                 else:
+                    #This is a bug fix
                     d[ID] = [c]
 
                 if c in reverse_d:

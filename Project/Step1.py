@@ -10,7 +10,7 @@ class Step1:
     __cogs_frequency = None
     __functions_frequency = None
     #SAME FLOW JUST WITH PULL REQUEST
-    #AAA
+    #AAAX
     def __init__(self, q0, gl, radius):
         self.__q0 = q0
         self.__gl = gl

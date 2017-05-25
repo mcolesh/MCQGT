@@ -2,23 +2,33 @@ from ast import literal_eval
 from Step1 import Step1
 from collections import OrderedDict
 import operator
-
+import winsound
 # input
-'''gl = literal_eval(input("Please enter the data: "))
-d = input("Enter the radius: ")
-q0 = input("Enter the genomes quorum: ")'''
+'''
+gl = literal_eval(input("Please enter the data: "))
+window = input("Enter the radius: ")
+q0 = input("Enter the genomes quorum: ")
+'''
 
 # create step 1 object
-gl = [("kinase",3),("tf",2)]
+#gl = [("flagellar", 1), ("methylase", 2), ("GTP", 1), ("kinase", 1), ("tf", 1)] LEFTOVERS FROM DAVID
+
+
+
+#gl = [("flagellar", 1), ("methylase", 2), ("GTP", 1), ("kinase", 1)]
+#gl = [("prophages", 2), ("Replication", 1), ("metabolism", 1), ("Transcription", 1)]
+gl = [("kinase", 1), ("transcription factor", 1)]
+
+other = 0
 q0 = 1
-d = 1500
-step1 = Step1(gl, q0, d)
-print(step1.get_cogs_frequency())
-print(step1.get_functions_frequency())
+window = 5000
+step1 = Step1(gl, other, q0, window)
+#playing an audio file screams I'm done.
+winsound.PlaySound('Done.wav', winsound.SND_FILENAME)
+
 #print(step1.get_grid())
 #print(sorted(step1.get_functions_frequency().items(), key=operator.itemgetter(1)))
 #print(sorted(step1.get_cogs_frequency().items(), key=operator.itemgetter(1)))
-
 #print(step1.get_functions_frequency())
 #print(step1.get_cogs_frequency())
 

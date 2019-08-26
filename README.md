@@ -31,6 +31,20 @@ Step 1: Counting key-words frequencies and choosing the Least-Frequent-Key-Word 
 Step 2: Finding all radiuses around all LFKs appearances using sliding windows of size r and eliminate groups that not contains 𝑤_1…𝑤_𝑖 words with count 𝑞_1…𝑞_𝑖 respectivly. 
 Step 3: Finding Multi-Colored-Quorum-Gean-Teams (MCQGTs), sets from step 2 that appears at least in 𝑞_0 species: using an admissible branch and bound search over an enumeration tree. the tree nodes are genes and paths spell candidate solutions and are ordered by least least frequent to most frequent key-word.
 
+## Example for the algorithm output:
 
+#### Inuput:
+
+Words | Quantity
+------------ | -------------
+Transcription Factor | 1
+Kinase | 1
+
+𝑞_0 - 10
+𝑟 - 10Kbp
+
+and DB of 6 million records.
+
+#### Results:
 
 

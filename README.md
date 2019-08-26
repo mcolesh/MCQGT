@@ -39,6 +39,7 @@ Words | Quantity
 ------------ | -------------
 Transcription Factor | 1
 Kinase | 1
+WildCard (any word) | 1
 
 𝑞_0 - 10
 𝑟 - 10Kbp
@@ -47,10 +48,10 @@ and DB of 6 million records.
 
 #### Results:
 
-**************************************************************************
-result number 1
-cogs: ['COG3874', 'COG0282', 'COG2220']
-groups: 
+
+Result number 1:
+Cogs: ['COG3874', 'COG0282', 'COG2220']
+Groups: 
 Bacillus_coagulans_2_6_uid68053: COG2220  COG0006  COG0686  -  COG0589  -  COG0282  -  COG0827  COG2077  COG3874  
 Bacillus_subtilis_BSn5_uid62463: COG0583  COG2220  COG1028  -  COG0165  COG0137  COG0521  COG0282  COG0827  COG2077  COG3874  
 Bacillus_subtilis_BSn5_uid62463: COG2220  COG1028  -  COG0165  COG0137  COG0521  COG0282  COG0827  COG2077  COG3874  
@@ -70,9 +71,10 @@ Bacillus_atrophaeus_1942_uid59887: COG2220  COG1028  -  COG0165  COG0137  -  COG
 
 
 **************************************************************************
-result number 2
-cogs: ['COG3874', 'COG0282', 'COG0137']
-groups: 
+
+Result number 2:
+Cogs: ['COG3874', 'COG0282', 'COG0137']
+Groups: 
 Bacillus_anthracis_A0248_uid59385: COG0137  -  COG1284  -  -  -  COG0282  COG0827  COG2077  COG3874  
 Bacillus_subtilis_BSn5_uid62463: COG0583  COG2220  COG1028  -  COG0165  COG0137  COG0521  COG0282  COG0827  COG2077  COG3874  
 Bacillus_subtilis_BSn5_uid62463: COG2220  COG1028  -  COG0165  COG0137  COG0521  COG0282  COG0827  COG2077  COG3874  
@@ -165,9 +167,10 @@ Bacillus_anthracis_Ames_uid57909: COG0137  -  -  COG1284  -  -  -  COG0282  COG0
 
 
 **************************************************************************
-result number 3
-cogs: ['COG3874', 'COG0282', 'COG1051']
-groups: 
+
+Result number 3:
+Cogs: ['COG3874', 'COG0282', 'COG1051']
+Groups: 
 Bacillus_cereus_B4264_uid58757: COG0137  -  -  -  COG1284  -  -  COG1051  COG0282  COG0827  COG2077  COG3874  
 Bacillus_cereus_B4264_uid58757: -  -  -  COG1284  -  -  COG1051  COG0282  COG0827  COG2077  COG3874  
 Bacillus_cereus_B4264_uid58757: -  -  COG1284  -  -  COG1051  COG0282  COG0827  COG2077  COG3874  
@@ -261,9 +264,10 @@ Bacillus_thuringiensis_Al_Hakam_uid5879: -  COG1051  COG0282  COG0827  COG2077  
 
 
 **************************************************************************
-result number 4
-cogs: ['COG3874', 'COG0282', 'COG2077']
-groups: 
+
+Result number 4:
+Cogs: ['COG3874', 'COG0282', 'COG2077']
+Groups: 
 Bacillus_anthracis_A0248_uid59385: COG0282  COG0827  COG2077  COG3874  
 Bacillus_anthracis_A0248_uid59385: COG0137  -  COG1284  -  -  -  COG0282  COG0827  COG2077  COG3874  
 Bacillus_anthracis_A0248_uid59385: -  COG1284  -  -  -  COG0282  COG0827  COG2077  COG3874  
@@ -579,9 +583,10 @@ Bacillus_anthracis_Ames_uid57909: COG0282  COG0827  COG2077  COG3874
 
 
 **************************************************************************
-result number 5
-cogs: ['COG3874', 'COG0282', 'COG1028']
-groups: 
+
+Result number 5:
+Cogs: ['COG3874', 'COG0282', 'COG1028']
+Groups:
 Bacillus_subtilis_BSn5_uid62463: COG0583  COG2220  COG1028  -  COG0165  COG0137  COG0521  COG0282  COG0827  COG2077  COG3874  
 Bacillus_subtilis_BSn5_uid62463: COG2220  COG1028  -  COG0165  COG0137  COG0521  COG0282  COG0827  COG2077  COG3874  
 Bacillus_subtilis_BSn5_uid62463: COG1028  -  COG0165  COG0137  COG0521  COG0282  COG0827  COG2077  COG3874  
@@ -609,9 +614,10 @@ Bacillus_atrophaeus_1942_uid59887: COG1028  -  COG0165  COG0137  -  COG0521  COG
 
 
 **************************************************************************
-result number 6
-cogs: ['COG3874', 'COG0282', 'COG0827']
-groups: 
+
+Result number 6:
+Cogs: ['COG3874', 'COG0282', 'COG0827']
+Groups: 
 Bacillus_anthracis_A0248_uid59385: COG0282  COG0827  COG2077  COG3874  
 Bacillus_anthracis_A0248_uid59385: COG0137  -  COG1284  -  -  -  COG0282  COG0827  COG2077  COG3874  
 Bacillus_anthracis_A0248_uid59385: -  COG1284  -  -  -  COG0282  COG0827  COG2077  COG3874  
@@ -927,9 +933,10 @@ Bacillus_anthracis_Ames_uid57909: COG0282  COG0827  COG2077  COG3874
 
 
 **************************************************************************
-result number 7
-cogs: ['COG3874', 'COG0282', 'COG1284']
-groups: 
+
+Result number 7:
+Cogs: ['COG3874', 'COG0282', 'COG1284']
+Groups: 
 Bacillus_anthracis_A0248_uid59385: COG0137  -  COG1284  -  -  -  COG0282  COG0827  COG2077  COG3874  
 Bacillus_anthracis_A0248_uid59385: -  COG1284  -  -  -  COG0282  COG0827  COG2077  COG3874  
 Bacillus_anthracis_A0248_uid59385: COG1284  -  -  -  COG0282  COG0827  COG2077  COG3874  
@@ -1019,9 +1026,10 @@ Bacillus_anthracis_Ames_uid57909: COG1284  -  -  -  COG0282  COG0827  COG2077  C
 
 
 **************************************************************************
-result number 8
-cogs: ['COG3874', 'COG0282', 'COG0165']
-groups: 
+
+Result number 8:
+Cogs: ['COG3874', 'COG0282', 'COG0165']
+Groups: 
 Bacillus_subtilis_BSn5_uid62463: COG0583  COG2220  COG1028  -  COG0165  COG0137  COG0521  COG0282  COG0827  COG2077  COG3874  
 Bacillus_subtilis_BSn5_uid62463: COG2220  COG1028  -  COG0165  COG0137  COG0521  COG0282  COG0827  COG2077  COG3874  
 Bacillus_subtilis_BSn5_uid62463: COG1028  -  COG0165  COG0137  COG0521  COG0282  COG0827  COG2077  COG3874  
@@ -1075,6 +1083,9 @@ Bacillus_atrophaeus_1942_uid59887: -  COG0165  COG0137  -  COG0521  COG0282  COG
 Bacillus_atrophaeus_1942_uid59887: COG0165  COG0137  -  COG0521  COG0282  COG0827  COG2077  COG3874  
 Bacillus_halodurans_C_125_uid57791: -  COG0165  COG0137  -  COG3666  -  COG3481  COG0282  COG0827  COG2077  COG3874  
 Bacillus_halodurans_C_125_uid57791: COG0165  COG0137  -  COG3666  -  COG3481  COG0282  COG0827  COG2077  COG3874  
+
+
+
 
 
 

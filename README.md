@@ -1,9 +1,9 @@
 # The Multi-Colored-Gean-Team problem
-
-##The problem:
+## This is an <h2> tag
+##The problem:<h2> tag
 Finding sets of nearby genes with some restrictions that are preserved on at least 'n' species of bacteria. 
 
-##A little background and motivation:
+##A little background and motivation:##
 It has been found that Groups of nearby genes tend to code for proteins that have a functional interaction.
 We believe that a nearby genes that are preserved among many different species indicates for:
     *Genomic evolution correlation.  

@@ -7,6 +7,7 @@ Finding sets of nearby genes with some restrictions that are preserved on at lea
 ## A little background and motivation:
 It has been found that Groups of nearby genes tend to code for proteins that have a functional interaction.
 We believe that a nearby genes that are preserved among many different species indicates for:
+
     * Genomic evolution correlation.  
     * Functionality correlation.
 

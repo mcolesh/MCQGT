@@ -11,7 +11,7 @@ We believe that a nearby genes that are preserved among many different species i
 1. Genomic evolution correlation.  
 2. Functionality correlation.
 
-__By finding all sets of nearby genes that follows a given restriction and the species they are belong to we can learn alot about species relations and biological machines / protein interactions.
+__By finding all sets of nearby genes that follows a given restriction and the species they are belong to we can learn alot about species relations and biological machines / protein interactions.__
 
 ## More formally:
 Given:
